@@ -1,0 +1,2957 @@
+{
+  "id": "16c968c4-e397-4d0d-b5a2-b4cece5221f4",
+  "version": "2.0",
+  "name": "Pruebas unitarias",
+  "url": "http://20.62.165.99/pg2v1-app/public/",
+  "tests": [{
+    "id": "3bc3399d-18a0-4899-9030-81ddcd2ebed4",
+    "name": "3 Registrar Terapeuta 1",
+    "commands": [{
+      "id": "006f03b0-9cd4-4dc6-939a-494a98824761",
+      "comment": "",
+      "command": "open",
+      "target": "/pg2v1-app/public/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "103a2739-c2f3-429d-b439-851812608920",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4ea6e66-f8f1-434c-ba82-4a5151f4d089",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terapeuta",
+      "targets": [
+        ["linkText=Terapeuta", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Terapeuta')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/terapeuta']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cddbb98f-0bd0-4674-a415-f81efce8909e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success:nth-child(2)",
+      "targets": [
+        ["css=.btn-success:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "faead147-8574-4ead-9bfc-e148af46017a",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=txtcodigo", "name"],
+        ["css=form > .mb-3:nth-child(2) > #exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b31f28aa-f6a9-4eb9-aeed-af47bb1ded04",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=txtcodigo", "name"],
+        ["css=form > .mb-3:nth-child(2) > #exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7420693f-ebff-42aa-89f1-c8c65405b11a",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=txtcodigo", "name"],
+        ["css=form > .mb-3:nth-child(2) > #exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "fab47abd-e2ad-4109-b45c-87dac517f6ab",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtnombre",
+      "targets": [
+        ["name=txtnombre", "name"],
+        ["css=form > .mb-3:nth-child(3) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "246f8e11-5eb3-4ff6-9a20-004122530ec6",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtnombre",
+      "targets": [
+        ["name=txtnombre", "name"],
+        ["css=form > .mb-3:nth-child(3) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "María Gomez Lara"
+    }, {
+      "id": "51ec921d-1141-47d6-bbe2-79548b5ee945",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtfecha_nacimiento",
+      "targets": [
+        ["name=txtfecha_nacimiento", "name"],
+        ["css=form > .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc1e0895-ce0c-40eb-b329-102f6cbc12e5",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtfecha_nacimiento",
+      "targets": [
+        ["name=txtfecha_nacimiento", "name"],
+        ["css=form > .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "1996-08-05"
+    }, {
+      "id": "a97bdca1-07b8-47b2-b27a-07a215aabbcd",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtedad",
+      "targets": [
+        ["name=txtedad", "name"],
+        ["css=form > .mb-3:nth-child(5) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0075630-61ba-43c6-864e-471b9361a466",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtedad",
+      "targets": [
+        ["name=txtedad", "name"],
+        ["css=form > .mb-3:nth-child(5) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "27"
+    }, {
+      "id": "2a914bc5-9931-46c4-b557-bc9410a6a2c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .mb-3:nth-child(6)",
+      "targets": [
+        ["css=form > .mb-3:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d4ad895-a40b-4ea4-9ffc-44d410024223",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtdireccion",
+      "targets": [
+        ["name=txtdireccion", "name"],
+        ["css=form > .mb-3:nth-child(6) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "610e639b-4d47-4062-b9e6-aa3284d0851c",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtdireccion",
+      "targets": [
+        ["name=txtdireccion", "name"],
+        ["css=form > .mb-3:nth-child(6) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Guatemala"
+    }, {
+      "id": "0f93f5b0-650f-42ff-a6c6-3c495f3a1dd2",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58dd16c2-26d0-4d1e-b0c5-eb3e238b4ffc",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "Maria.daa@coralsa.com"
+    }, {
+      "id": "0ec79c4b-2057-40bb-b6f9-5d13f557ab4d",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51ba1359-1d7a-4777-99cd-c8ad3e0b8384",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "2022-08-25"
+    }, {
+      "id": "fd51ffb1-921b-4663-b3d4-2cd964a8bef9",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtdias_asistencia",
+      "targets": [
+        ["name=txtdias_asistencia", "name"],
+        ["css=form > .mb-3:nth-child(9) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfc64cce-0797-4bf3-bc79-ae69c51ca89a",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtdias_asistencia",
+      "targets": [
+        ["name=txtdias_asistencia", "name"],
+        ["css=form > .mb-3:nth-child(9) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "Lunes a miercoles"
+    }, {
+      "id": "98b63d76-b6d4-4954-922b-eb13405b62c8",
+      "comment": "",
+      "command": "click",
+      "target": "name=txthorario",
+      "targets": [
+        ["name=txthorario", "name"],
+        ["css=form > .mb-3:nth-child(10) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fae21825-fcba-4346-931c-f41d07984537",
+      "comment": "",
+      "command": "type",
+      "target": "name=txthorario",
+      "targets": [
+        ["name=txthorario", "name"],
+        ["css=form > .mb-3:nth-child(10) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": "9:00 AM - 5:00 PM"
+    }, {
+      "id": "f1e6f86e-e422-4d31-acc8-5350cf97103b",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtcolegiado",
+      "targets": [
+        ["name=txtcolegiado", "name"],
+        ["css=form > .mb-3:nth-child(11) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3b0a60f-df12-4272-b3e5-030bf63692db",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtcolegiado",
+      "targets": [
+        ["name=txtcolegiado", "name"],
+        ["css=form > .mb-3:nth-child(11) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "2546"
+    }, {
+      "id": "7973cf3d-7a18-43c9-a6e8-f8644dbfce31",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtestado_colegiado",
+      "targets": [
+        ["name=txtestado_colegiado", "name"],
+        ["css=form > .mb-3:nth-child(12) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e9a9d88-d8b8-4fde-bd1a-66971ebbb5e1",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtestado_colegiado",
+      "targets": [
+        ["name=txtestado_colegiado", "name"],
+        ["css=form > .mb-3:nth-child(12) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": "Activo"
+    }, {
+      "id": "e03ac736-6ff4-40c8-a466-d724d07b3ca9",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtobservaciones",
+      "targets": [
+        ["name=txtobservaciones", "name"],
+        ["css=form > .mb-3:nth-child(13) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[12]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fea70031-06d4-4d79-a924-05b09bbae3d2",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtobservaciones",
+      "targets": [
+        ["name=txtobservaciones", "name"],
+        ["css=form > .mb-3:nth-child(13) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[12]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": "Especialista en casos"
+    }, {
+      "id": "4887990f-afed-4596-a718-2d673f321596",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(14)",
+      "targets": [
+        ["css=.mb-3:nth-child(14)", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[13]", "xpath:idRelative"],
+        ["xpath=//div[13]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6590b4f-6507-4130-98b3-1e3444eb3d68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(14)",
+      "targets": [
+        ["css=.mb-3:nth-child(14)", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[13]", "xpath:idRelative"],
+        ["xpath=//div[13]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91cc9c98-dbeb-4f79-99c7-3d3e1a075866",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(14)",
+      "targets": [
+        ["css=.mb-3:nth-child(14)", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[13]", "xpath:idRelative"],
+        ["xpath=//div[13]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c032106-3853-4c4d-96f8-7938b8415008",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(14) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(14) > .form-label", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[13]/label", "xpath:idRelative"],
+        ["xpath=//div[13]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Rol')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03719318-5674-426f-8d55-f718fef8d59c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#modalRegistrar .modal-body",
+      "targets": [
+        ["css=#modalRegistrar .modal-body", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5693e4cb-2a47-456c-816a-a3ff0caba07f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(14)",
+      "targets": [
+        ["css=.mb-3:nth-child(14)", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[13]", "xpath:idRelative"],
+        ["xpath=//div[13]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e5f27bf-9d37-44df-a1f4-c6a8ba25e11a",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtrol",
+      "targets": [
+        ["name=txtrol", "name"],
+        ["css=.mb-3:nth-child(14) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[13]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72427c36-ff29-469e-9440-1b42b432b18f",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=#modalRegistrar .modal-content",
+      "targets": [
+        ["css=#modalRegistrar .modal-content", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": "-0.5,1163"
+    }, {
+      "id": "7d8e5bce-8952-4540-8c22-0fb014ee781f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=#modalRegistrar .modal-content",
+      "targets": [
+        ["css=#modalRegistrar .modal-content", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": "-0.5,1163"
+    }, {
+      "id": "9b556fd9-6b98-4930-a797-f85bb4d9245d",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=#modalRegistrar .modal-content",
+      "targets": [
+        ["css=#modalRegistrar .modal-content", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": "-0.5,1163"
+    }, {
+      "id": "1a7ff1ee-1699-44df-b94d-5297ef8066e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#modalRegistrar .modal-content",
+      "targets": [
+        ["css=#modalRegistrar .modal-content", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb105a12-1907-4d7b-9530-6554aa9ee232",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtrol",
+      "targets": [
+        ["name=txtrol", "name"],
+        ["css=.mb-3:nth-child(14) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[13]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/input", "xpath:position"]
+      ],
+      "value": "30"
+    }, {
+      "id": "ead9f588-c26f-4175-a040-59ad9d92cfb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer:nth-child(15) > .btn-primary",
+      "targets": [
+        ["css=.modal-footer:nth-child(15) > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submitt']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[14]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28718820-838e-4756-b530-53f7510f8a4c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div[3]", "xpath:position"],
+        ["xpath=//div[contains(.,'Terapeuta registrado correctamente')]", "xpath:innerText"]
+      ],
+      "value": "Terapeuta registrado correctamente"
+    }]
+  }, {
+    "id": "ede08457-3e0f-4ccf-a187-0dbc2e8df6d2",
+    "name": "4 Registrar Terapeuta 2",
+    "commands": [{
+      "id": "ca584ac2-423f-466e-942e-2df8d37ddbf6",
+      "comment": "",
+      "command": "open",
+      "target": "http://20.62.165.99/pg2v1-app/public/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b979595c-502b-4060-8a53-4cc271326201",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec2e6292-572c-43d2-bbe0-b7d85635a0c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terapeuta",
+      "targets": [
+        ["linkText=Terapeuta", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Terapeuta')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/terapeuta']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d48ae5e-ece9-4528-9f44-c558eaaaf2c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success:nth-child(2)",
+      "targets": [
+        ["css=.btn-success:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e873ced-62b0-40f5-b9c7-1c0e5a6115e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=txtcodigo", "name"],
+        ["css=form > .mb-3:nth-child(2) > #exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1a51ec6-d47e-4410-8c35-7c415b4cc750",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=txtcodigo", "name"],
+        ["css=form > .mb-3:nth-child(2) > #exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "3296a32d-ee4a-4875-aba4-834fee823f94",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtnombre",
+      "targets": [
+        ["name=txtnombre", "name"],
+        ["css=form > .mb-3:nth-child(3) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c10008b4-0b6f-463c-8ae8-c4e7a0117fac",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtnombre",
+      "targets": [
+        ["name=txtnombre", "name"],
+        ["css=form > .mb-3:nth-child(3) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Ana Sofía Pérez"
+    }, {
+      "id": "23408b11-1327-4701-b182-96614f94f64a",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtfecha_nacimiento",
+      "targets": [
+        ["name=txtfecha_nacimiento", "name"],
+        ["css=form > .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c0fb12d-5666-45eb-92d4-b695c9d9190e",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtfecha_nacimiento",
+      "targets": [
+        ["name=txtfecha_nacimiento", "name"],
+        ["css=form > .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "1996-07-07"
+    }, {
+      "id": "489ec11a-1fa4-4d48-beb6-09430bf9205b",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtedad",
+      "targets": [
+        ["name=txtedad", "name"],
+        ["css=form > .mb-3:nth-child(5) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "202a1e42-df65-431e-a72e-868b5f651ab6",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtedad",
+      "targets": [
+        ["name=txtedad", "name"],
+        ["css=form > .mb-3:nth-child(5) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "28"
+    }, {
+      "id": "67c94953-b454-4f4c-9ea3-8d9bcfea92ac",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtdireccion",
+      "targets": [
+        ["name=txtdireccion", "name"],
+        ["css=form > .mb-3:nth-child(6) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c3f01d5-d9b4-4dea-83a1-880d38c21993",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtdireccion",
+      "targets": [
+        ["name=txtdireccion", "name"],
+        ["css=form > .mb-3:nth-child(6) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Fraijanes"
+    }, {
+      "id": "3a34521b-e879-4270-82a4-dc467ad96451",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9785b24b-99dc-4864-a163-8c76f71846d0",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3343f6d-d45f-47ac-aeae-124154ec6db1",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "asoperez"
+    }, {
+      "id": "93150240-2649-4de2-848b-8c9315b1d069",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "411cd956-1d62-47ea-b982-3126f9ce255f",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "asoperez@gmail.com"
+    }, {
+      "id": "75ce11f2-d6db-4acf-8ef1-cf259ae69ce0",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "92.5,12"
+    }, {
+      "id": "b5df5d5e-c98f-4731-963a-ebddbdc08d0c",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "92.5,12"
+    }, {
+      "id": "236ab646-35ec-416b-9c59-55ff197a902b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "92.5,12"
+    }, {
+      "id": "8fbd62c8-2483-45fd-8e1c-362afff0a579",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9529c5ef-20fe-42ad-9fd7-6e7398e9ecf7",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "2022-06-08"
+    }, {
+      "id": "d924255a-ae49-469c-afe6-670869d30423",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtdias_asistencia",
+      "targets": [
+        ["name=txtdias_asistencia", "name"],
+        ["css=form > .mb-3:nth-child(9) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb6408f7-92e0-4725-8811-17c3587e2d88",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtdias_asistencia",
+      "targets": [
+        ["name=txtdias_asistencia", "name"],
+        ["css=form > .mb-3:nth-child(9) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "Lunes a viernes"
+    }, {
+      "id": "21559202-072f-44d8-abb7-cfb1bd7ac1f7",
+      "comment": "",
+      "command": "click",
+      "target": "name=txthorario",
+      "targets": [
+        ["name=txthorario", "name"],
+        ["css=form > .mb-3:nth-child(10) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a36dfb54-5a11-4788-ad31-ae204cac9ed3",
+      "comment": "",
+      "command": "type",
+      "target": "name=txthorario",
+      "targets": [
+        ["name=txthorario", "name"],
+        ["css=form > .mb-3:nth-child(10) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": "09:00-11:00"
+    }, {
+      "id": "8fb297a9-a4d6-486e-9b21-8d9e4cf3b9cd",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtcolegiado",
+      "targets": [
+        ["name=txtcolegiado", "name"],
+        ["css=form > .mb-3:nth-child(11) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dbe3148-3500-4552-aeb8-d1fc254a25cf",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtcolegiado",
+      "targets": [
+        ["name=txtcolegiado", "name"],
+        ["css=form > .mb-3:nth-child(11) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "84572"
+    }, {
+      "id": "43022e04-2632-476c-9b9f-af666d8647ce",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtestado_colegiado",
+      "targets": [
+        ["name=txtestado_colegiado", "name"],
+        ["css=form > .mb-3:nth-child(12) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74e0f057-6b47-47cb-a53f-af0469bc83a4",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtestado_colegiado",
+      "targets": [
+        ["name=txtestado_colegiado", "name"],
+        ["css=form > .mb-3:nth-child(12) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": "Activo"
+    }, {
+      "id": "275c323f-2346-4198-b2cc-0287d77dcb02",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtobservaciones",
+      "targets": [
+        ["name=txtobservaciones", "name"],
+        ["css=form > .mb-3:nth-child(13) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[12]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70fb7238-23ab-4f27-ad3e-b66ca27eaf49",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtobservaciones",
+      "targets": [
+        ["name=txtobservaciones", "name"],
+        ["css=form > .mb-3:nth-child(13) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[12]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": "Especialista en I"
+    }, {
+      "id": "87979501-8b2d-4de7-a03f-10d28b6ee14a",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtrol",
+      "targets": [
+        ["name=txtrol", "name"],
+        ["css=.mb-3:nth-child(14) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[13]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5e784e4-2c47-4517-a020-90e59ddfac37",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtrol",
+      "targets": [
+        ["name=txtrol", "name"],
+        ["css=.mb-3:nth-child(14) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[13]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/input", "xpath:position"]
+      ],
+      "value": "30"
+    }, {
+      "id": "6fd65db9-2283-4001-a4df-117607c36072",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer:nth-child(15) > .btn-primary",
+      "targets": [
+        ["css=.modal-footer:nth-child(15) > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submitt']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[14]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f4a9fabe-dd0f-4340-a347-b9aec82853a5",
+    "name": "5 Registrar Terapeuta 3",
+    "commands": [{
+      "id": "78df961a-ecea-4206-a3c7-68edd56b69d8",
+      "comment": "",
+      "command": "open",
+      "target": "http://20.62.165.99/pg2v1-app/public/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6c1803f-4042-47c7-9b7a-a6b871ecf768",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62d0465a-ae91-48f4-9037-8823857c3c26",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terapeuta",
+      "targets": [
+        ["linkText=Terapeuta", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Terapeuta')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/terapeuta']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9649daea-f7cf-40af-835f-3822ff9c5769",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success:nth-child(2)",
+      "targets": [
+        ["css=.btn-success:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f045978c-7187-4235-b6cd-2ace5c8595a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=txtcodigo", "name"],
+        ["css=form > .mb-3:nth-child(2) > #exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4228cf41-4eda-4679-bb71-20ee353ccaf0",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=txtcodigo", "name"],
+        ["css=form > .mb-3:nth-child(2) > #exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "d43408c0-7281-4012-a191-98a923f3353b",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtnombre",
+      "targets": [
+        ["name=txtnombre", "name"],
+        ["css=form > .mb-3:nth-child(3) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5ff5992-52e5-465b-bbf4-9f651adb767d",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtnombre",
+      "targets": [
+        ["name=txtnombre", "name"],
+        ["css=form > .mb-3:nth-child(3) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Santiago Hernández"
+    }, {
+      "id": "8d349378-4e25-47a7-bef5-e616b6153473",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtfecha_nacimiento",
+      "targets": [
+        ["name=txtfecha_nacimiento", "name"],
+        ["css=form > .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27fbd9fa-80d3-413b-a733-0f9673c7d509",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtfecha_nacimiento",
+      "targets": [
+        ["name=txtfecha_nacimiento", "name"],
+        ["css=form > .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "1986-10-07"
+    }, {
+      "id": "4d3eab7e-cfa4-4a4e-a3c1-0a082711ee5c",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtedad",
+      "targets": [
+        ["name=txtedad", "name"],
+        ["css=form > .mb-3:nth-child(5) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9d983c6-e020-40c8-8fce-bc97021177ac",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtedad",
+      "targets": [
+        ["name=txtedad", "name"],
+        ["css=form > .mb-3:nth-child(5) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "38"
+    }, {
+      "id": "716b9c1d-88f6-4e4d-b6dd-9f1a7c02749c",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtdireccion",
+      "targets": [
+        ["name=txtdireccion", "name"],
+        ["css=form > .mb-3:nth-child(6) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fe1c17d-db9a-46b8-af49-e6b990ada35a",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtdireccion",
+      "targets": [
+        ["name=txtdireccion", "name"],
+        ["css=form > .mb-3:nth-child(6) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Mixco"
+    }, {
+      "id": "df757049-8075-4072-94ec-871f1ac2ed19",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "118e7c05-cbf5-4f20-800e-c107cfaf482f",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "864750cf-d835-43f8-a4d4-4eadd439d7a4",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "asoperez"
+    }, {
+      "id": "8d37d2e0-b0a3-4808-bcc3-39e9b17c5a47",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8928ebfa-3112-436a-a2ee-1bb867173b7b",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "santi123@gmail.com"
+    }, {
+      "id": "819b9ef7-2a6e-4a65-98f2-5a301870b33e",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "92.5,12"
+    }, {
+      "id": "116765b8-401f-48b6-9ecc-e7c3bb144deb",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "92.5,12"
+    }, {
+      "id": "08601d91-607d-49f8-bf28-2375fd1e6514",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "92.5,12"
+    }, {
+      "id": "03e73e7d-4a02-4092-9158-b98786681d46",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca254dd2-859d-4b41-905d-e2f01df50e04",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "2021-04-03"
+    }, {
+      "id": "debcaf7e-8223-486b-a3ef-f7248e9402b6",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtdias_asistencia",
+      "targets": [
+        ["name=txtdias_asistencia", "name"],
+        ["css=form > .mb-3:nth-child(9) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "570b575e-da4d-45f1-b10b-3e68166c0b33",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtdias_asistencia",
+      "targets": [
+        ["name=txtdias_asistencia", "name"],
+        ["css=form > .mb-3:nth-child(9) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "Lunes a viernes"
+    }, {
+      "id": "fab18b1c-0c06-4323-939f-d7a73cf67621",
+      "comment": "",
+      "command": "click",
+      "target": "name=txthorario",
+      "targets": [
+        ["name=txthorario", "name"],
+        ["css=form > .mb-3:nth-child(10) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a15606c-cf86-4da8-a0f9-47e372a1b8ef",
+      "comment": "",
+      "command": "type",
+      "target": "name=txthorario",
+      "targets": [
+        ["name=txthorario", "name"],
+        ["css=form > .mb-3:nth-child(10) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": "09:00-14:00"
+    }, {
+      "id": "a38746d9-73d8-4c03-a62d-ba4c824b365d",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtcolegiado",
+      "targets": [
+        ["name=txtcolegiado", "name"],
+        ["css=form > .mb-3:nth-child(11) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28368a1d-80b5-45f0-9dee-d9aa16604763",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtcolegiado",
+      "targets": [
+        ["name=txtcolegiado", "name"],
+        ["css=form > .mb-3:nth-child(11) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "458762"
+    }, {
+      "id": "2d3b34b0-43f6-45e3-a162-693a5eccd788",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtestado_colegiado",
+      "targets": [
+        ["name=txtestado_colegiado", "name"],
+        ["css=form > .mb-3:nth-child(12) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc74c9d1-64f7-4533-b92b-dccb7fb6a1ec",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtestado_colegiado",
+      "targets": [
+        ["name=txtestado_colegiado", "name"],
+        ["css=form > .mb-3:nth-child(12) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": "Activo"
+    }, {
+      "id": "4ca387cf-ec78-4c48-8e92-ce0795b47305",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtobservaciones",
+      "targets": [
+        ["name=txtobservaciones", "name"],
+        ["css=form > .mb-3:nth-child(13) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[12]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "683f61b8-cb91-46ae-ba30-5c5be9fb670d",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtobservaciones",
+      "targets": [
+        ["name=txtobservaciones", "name"],
+        ["css=form > .mb-3:nth-child(13) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[12]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": "Especialista en IA emocional"
+    }, {
+      "id": "60da4892-c74a-4b4d-9b40-d21c82cf3ec7",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtrol",
+      "targets": [
+        ["name=txtrol", "name"],
+        ["css=.mb-3:nth-child(14) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[13]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bbe97ce-2b49-4304-97ff-15438118eff7",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtrol",
+      "targets": [
+        ["name=txtrol", "name"],
+        ["css=.mb-3:nth-child(14) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[13]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/input", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "0541bf5f-4f9c-44df-8779-f7ff072780f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer:nth-child(15) > .btn-primary",
+      "targets": [
+        ["css=.modal-footer:nth-child(15) > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submitt']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[14]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ac019af5-7be1-426e-aeab-ebe814b80f44",
+    "name": "6 Registrar Terapeuta 4",
+    "commands": [{
+      "id": "20c218e8-a3da-4746-b713-2ddc40842d49",
+      "comment": "",
+      "command": "open",
+      "target": "http://20.62.165.99/pg2v1-app/public/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd48f3fa-cdfe-4cec-8a3b-c955f8ab9d8a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc127c2d-f8b7-4a53-9b5d-d18981bcddc2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terapeuta",
+      "targets": [
+        ["linkText=Terapeuta", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Terapeuta')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/terapeuta']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "971bec42-df27-4970-99fc-498224f420ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success:nth-child(2)",
+      "targets": [
+        ["css=.btn-success:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d3848a5-7e0d-4003-8285-e793f6cce4fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=txtcodigo", "name"],
+        ["css=form > .mb-3:nth-child(2) > #exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfb5faa7-0e84-4c04-a1ad-6f66e58bfbe0",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=txtcodigo", "name"],
+        ["css=form > .mb-3:nth-child(2) > #exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "ea8445b5-819b-43a4-b491-cf614f8d3de8",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtnombre",
+      "targets": [
+        ["name=txtnombre", "name"],
+        ["css=form > .mb-3:nth-child(3) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d48d250-b5e3-4ff6-ae45-94771c057473",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtnombre",
+      "targets": [
+        ["name=txtnombre", "name"],
+        ["css=form > .mb-3:nth-child(3) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Juan de Jesús"
+    }, {
+      "id": "a9900730-88c0-4984-b4bd-08ed2b87665a",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtfecha_nacimiento",
+      "targets": [
+        ["name=txtfecha_nacimiento", "name"],
+        ["css=form > .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd4130cd-11af-46a8-ab2d-4640300627b6",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtfecha_nacimiento",
+      "targets": [
+        ["name=txtfecha_nacimiento", "name"],
+        ["css=form > .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "2000-10-01"
+    }, {
+      "id": "3d552f66-b372-4e5a-9f7b-084745299763",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtedad",
+      "targets": [
+        ["name=txtedad", "name"],
+        ["css=form > .mb-3:nth-child(5) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d094e5a5-661e-402a-b4ec-7c30f97d92b6",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtedad",
+      "targets": [
+        ["name=txtedad", "name"],
+        ["css=form > .mb-3:nth-child(5) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "23"
+    }, {
+      "id": "18a64652-4882-445c-b2ac-4a3126c2d28a",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtdireccion",
+      "targets": [
+        ["name=txtdireccion", "name"],
+        ["css=form > .mb-3:nth-child(6) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d8b6bb0-5648-4ffa-900c-379f3de3ee4b",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtdireccion",
+      "targets": [
+        ["name=txtdireccion", "name"],
+        ["css=form > .mb-3:nth-child(6) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "San Luis"
+    }, {
+      "id": "481aa6c0-772a-4e6c-be20-937cc29c4004",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cc2cd1a-f8a0-4753-9963-1e85f54fb937",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b411599e-4f12-4a29-9232-57f8d7446afb",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "asoperez"
+    }, {
+      "id": "623116e9-a70f-423d-8fca-9e3d50e52262",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "261a7dd5-253a-4bc3-81cd-e972f4132126",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtcorreo",
+      "targets": [
+        ["name=txtcorreo", "name"],
+        ["css=form > .mb-3:nth-child(7) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "jjesuschac@gmail.com"
+    }, {
+      "id": "0f071932-82b4-4322-b24f-1c9edac63b59",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "92.5,12"
+    }, {
+      "id": "613ff443-90ae-4ea9-968b-4c4d714e7e5b",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "92.5,12"
+    }, {
+      "id": "7cf36323-d313-42d4-b08f-e274b41c62de",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "92.5,12"
+    }, {
+      "id": "92de817b-6c5b-4fa8-bbbf-47076d389029",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd162a30-f972-49cd-aa82-420a7c083d18",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtfecha_ingreso",
+      "targets": [
+        ["name=txtfecha_ingreso", "name"],
+        ["css=form > .mb-3:nth-child(8) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "2023-02-15"
+    }, {
+      "id": "d6b9a409-3154-4630-92d6-94cdb29e82a5",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtdias_asistencia",
+      "targets": [
+        ["name=txtdias_asistencia", "name"],
+        ["css=form > .mb-3:nth-child(9) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eb50e42-c89a-4a34-8f3b-a6aa47456c35",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtdias_asistencia",
+      "targets": [
+        ["name=txtdias_asistencia", "name"],
+        ["css=form > .mb-3:nth-child(9) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "Lunes a viernes"
+    }, {
+      "id": "af1d2f95-5b4d-4a01-a489-37d532af0758",
+      "comment": "",
+      "command": "click",
+      "target": "name=txthorario",
+      "targets": [
+        ["name=txthorario", "name"],
+        ["css=form > .mb-3:nth-child(10) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "080c87ab-c6a1-4102-a7ee-b702767df7f5",
+      "comment": "",
+      "command": "type",
+      "target": "name=txthorario",
+      "targets": [
+        ["name=txthorario", "name"],
+        ["css=form > .mb-3:nth-child(10) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": "08:00-14:00"
+    }, {
+      "id": "65153715-d442-4eb2-a783-95b9cee9851d",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtcolegiado",
+      "targets": [
+        ["name=txtcolegiado", "name"],
+        ["css=form > .mb-3:nth-child(11) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ff31819-8c2b-4f9f-84e8-56e9ed5eb94d",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtcolegiado",
+      "targets": [
+        ["name=txtcolegiado", "name"],
+        ["css=form > .mb-3:nth-child(11) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "458762"
+    }, {
+      "id": "06bec7a9-0d98-4cee-a2b7-494448e84897",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtestado_colegiado",
+      "targets": [
+        ["name=txtestado_colegiado", "name"],
+        ["css=form > .mb-3:nth-child(12) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46287825-98c5-4539-8237-05c070075ddd",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtestado_colegiado",
+      "targets": [
+        ["name=txtestado_colegiado", "name"],
+        ["css=form > .mb-3:nth-child(12) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": "Tramite"
+    }, {
+      "id": "957ef120-55d1-43fe-ae58-4cbcd833396f",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtobservaciones",
+      "targets": [
+        ["name=txtobservaciones", "name"],
+        ["css=form > .mb-3:nth-child(13) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[12]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a542fccc-269f-49f4-9ffd-f3f8a37c518e",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtobservaciones",
+      "targets": [
+        ["name=txtobservaciones", "name"],
+        ["css=form > .mb-3:nth-child(13) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[12]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": "Psicologo"
+    }, {
+      "id": "d0ba7df7-c512-4cd4-b79b-f220fc0f6073",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtrol",
+      "targets": [
+        ["name=txtrol", "name"],
+        ["css=.mb-3:nth-child(14) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[13]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a0e87de-67f1-45d6-acd6-b9944f4953ae",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtrol",
+      "targets": [
+        ["name=txtrol", "name"],
+        ["css=.mb-3:nth-child(14) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[13]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "5c9d46b2-54cb-4561-9060-74b93f36af58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer:nth-child(15) > .btn-primary",
+      "targets": [
+        ["css=.modal-footer:nth-child(15) > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submitt']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[14]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7a74ea25-18e7-4999-b1a3-5059679f26e4",
+    "name": "1 Acceso página principal",
+    "commands": [{
+      "id": "6a514c16-45e8-4692-8116-2e5a705fddbc",
+      "comment": "",
+      "command": "open",
+      "target": "http://20.62.165.99/pg2v1-app/public/terapeuta",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6579f0da-bd8a-4714-ad2d-b9e7617120c1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a78c2de-3a64-4ec3-a226-bd2f8783d6d7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inicio",
+      "targets": [
+        ["linkText=Inicio", "linkText"],
+        ["css=.btn-success:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Inicio')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Inicio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c50a8e90-eb30-4470-949c-4b4c56f28632",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center:nth-child(1)",
+      "targets": [
+        ["css=.text-center:nth-child(1)", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'La Liga Guatemalteca de Higiene Mental')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aab7e3fa-d30e-4709-aa6d-4f76416e6288",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center:nth-child(1)",
+      "targets": [
+        ["css=.text-center:nth-child(1)", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'La Liga Guatemalteca de Higiene Mental')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19dc327c-39db-496e-ae7b-a5eeca07e0b9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.text-center:nth-child(1)",
+      "targets": [
+        ["css=.text-center:nth-child(1)", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'La Liga Guatemalteca de Higiene Mental')]", "xpath:innerText"]
+      ],
+      "value": "La Liga Guatemalteca de Higiene Mental"
+    }]
+  }, {
+    "id": "0e459a4e-e6a5-436f-86ed-24fc89799998",
+    "name": "2 Validar vista Terapeuta",
+    "commands": [{
+      "id": "6af1ddcf-73c9-43f8-8d96-493307859d88",
+      "comment": "",
+      "command": "open",
+      "target": "http://20.62.165.99/pg2v1-app/public/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed0f79f3-2614-43e5-88e3-8394b1bffa59",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d38c401-d9ba-41e2-8c12-712559804fd7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terapeuta",
+      "targets": [
+        ["linkText=Terapeuta", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Terapeuta')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/terapeuta']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3542b37-2319-4a81-9c65-01d53630dc18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success:nth-child(2)",
+      "targets": [
+        ["css=.btn-success:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb80b776-48a0-45ad-9b64-a42126defcbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#modalRegistrar .btn-close",
+      "targets": [
+        ["css=#modalRegistrar .btn-close", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2229caaf-bf6c-4db7-9ee6-d5f80f54d35e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.text-center",
+      "targets": [
+        ["css=.text-center", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Terapeutas')]", "xpath:innerText"]
+      ],
+      "value": "Terapeutas"
+    }]
+  }, {
+    "id": "19b0555c-3e23-4b79-a1ca-cb0b8546aa71",
+    "name": "7 Registrar rol",
+    "commands": [{
+      "id": "c6871207-7d59-4d95-bc41-b6e5ad661af8",
+      "comment": "",
+      "command": "open",
+      "target": "http://20.62.165.99/pg2v1-app/public/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92335ce8-ef30-4bc7-967c-7ad1699816bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fad9df4-3594-486c-9b8b-81458ef7995a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terapeuta",
+      "targets": [
+        ["linkText=Terapeuta", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Terapeuta')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/terapeuta']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ced704b0-4970-4903-ac9b-354e016380b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Roles",
+      "targets": [
+        ["linkText=Roles", "linkText"],
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Roles')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/rol']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Roles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ede94f3-db32-432a-9538-e00411cdd265",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success:nth-child(2)",
+      "targets": [
+        ["css=.btn-success:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Añadir rol')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0cfe708-5db4-4127-963d-52b499090c11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(2)",
+      "targets": [
+        ["css=.mb-3:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd1593fd-8c00-4e73-aa8a-874e552d8e32",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=txtcodigorol", "name"],
+        ["css=.mb-3:nth-child(2) > #exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1e68642-e9cd-45cb-b57f-04e4ecd1eccb",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=txtcodigorol", "name"],
+        ["css=.mb-3:nth-child(2) > #exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "40"
+    }, {
+      "id": "8ba8fb1e-5e20-4da5-9c99-92965b3f841c",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .mb-3:nth-child(3)",
+      "targets": [
+        ["css=form > .mb-3:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c14d8f15-c44d-42fd-b765-f25d4b67a449",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtrol",
+      "targets": [
+        ["name=txtrol", "name"],
+        ["css=form > .mb-3:nth-child(3) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dec0a9c3-3fe6-4360-9e35-ad8e04236045",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtrol",
+      "targets": [
+        ["name=txtrol", "name"],
+        ["css=form > .mb-3:nth-child(3) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Psiquiatra"
+    }, {
+      "id": "4f9311f3-4a44-4e2b-8e78-c879a8fec5ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .mb-3:nth-child(4)",
+      "targets": [
+        ["css=form > .mb-3:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50762435-aa31-4b4c-b9a9-59e3d1c0abf8",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .mb-3:nth-child(4) > .form-label",
+      "targets": [
+        ["css=form > .mb-3:nth-child(4) > .form-label", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Descripcion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "037789a1-cda1-413d-bf53-6379ced586c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .mb-3:nth-child(4)",
+      "targets": [
+        ["css=form > .mb-3:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fb3ea29-00f8-48eb-ae61-0e5fe3dc035f",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .mb-3:nth-child(4) > .form-label",
+      "targets": [
+        ["css=form > .mb-3:nth-child(4) > .form-label", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Descripcion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7605afac-5aab-4dd1-a0fd-583c4c5ecb77",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .mb-3:nth-child(4) > .form-label",
+      "targets": [
+        ["css=form > .mb-3:nth-child(4) > .form-label", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Descripcion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7a19c1a-7d02-4642-a6d8-45e5a3b5bdfa",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtdescripcion",
+      "targets": [
+        ["name=txtdescripcion", "name"],
+        ["css=form > .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1647c40-fce3-45a8-b5cf-a8d8dc555157",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtdescripcion",
+      "targets": [
+        ["name=txtdescripcion", "name"],
+        ["css=form > .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c39c75af-1f61-4a6a-9bf6-03dc7cdcdb59",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtdescripcion",
+      "targets": [
+        ["name=txtdescripcion", "name"],
+        ["css=form > .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Especialista psiquiatra"
+    }, {
+      "id": "360907fd-2eab-4a53-ba3f-f84f22d9bbc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer:nth-child(5) > .btn-primary",
+      "targets": [
+        ["css=.modal-footer:nth-child(5) > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[4]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43502534-33d2-44c8-aec9-ca47cd4144b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div", "xpath:position"],
+        ["xpath=//div[contains(.,'Rol registrado correctamente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f342928-e029-4f5d-af1d-66704d4206da",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div[3]", "xpath:position"],
+        ["xpath=//div[contains(.,'Rol registrado correctamente')]", "xpath:innerText"]
+      ],
+      "value": "Rol registrado correctamente"
+    }]
+  }, {
+    "id": "736f81ce-fc3f-485d-a4cc-29ceb9636da1",
+    "name": "8 Registrar rol ",
+    "commands": [{
+      "id": "aa2ba343-bd64-47fe-9485-f62951321477",
+      "comment": "",
+      "command": "open",
+      "target": "http://20.62.165.99/pg2v1-app/public/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70e4bd9c-6211-404d-9310-4fe36ee96452",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2f343d3-5f5e-444e-8e3c-f31086ebee21",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terapeuta",
+      "targets": [
+        ["linkText=Terapeuta", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Terapeuta')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/terapeuta']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "427f7225-e44a-4a37-a428-5e0f97939e84",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Roles",
+      "targets": [
+        ["linkText=Roles", "linkText"],
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Roles')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/rol']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Roles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df981f14-c69d-466f-8242-857286f1f5f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success:nth-child(2)",
+      "targets": [
+        ["css=.btn-success:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Añadir rol')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "425ba499-45b2-4c5a-bd8e-3243e76911b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(2)",
+      "targets": [
+        ["css=.mb-3:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3699b04b-991e-4aa3-85b9-2c3af654e9f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=txtcodigorol", "name"],
+        ["css=.mb-3:nth-child(2) > #exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf7b832e-12ce-4eb3-acd6-2ae456349b3d",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=txtcodigorol", "name"],
+        ["css=.mb-3:nth-child(2) > #exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "50"
+    }, {
+      "id": "8249a2a4-57ca-42ce-95ab-b6d31660d904",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .mb-3:nth-child(3)",
+      "targets": [
+        ["css=form > .mb-3:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a5a2393-17f9-41ed-8ecd-23be49a4a6fc",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtrol",
+      "targets": [
+        ["name=txtrol", "name"],
+        ["css=form > .mb-3:nth-child(3) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1dabf6f-4801-4fc2-ae6e-5c1581a2ad57",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtrol",
+      "targets": [
+        ["name=txtrol", "name"],
+        ["css=form > .mb-3:nth-child(3) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Psicologo"
+    }, {
+      "id": "5f798717-ac6f-4fee-b873-3cf4bab09e25",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .mb-3:nth-child(4)",
+      "targets": [
+        ["css=form > .mb-3:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf84deaf-ac4d-4d57-8f3b-45c80a66191c",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .mb-3:nth-child(4) > .form-label",
+      "targets": [
+        ["css=form > .mb-3:nth-child(4) > .form-label", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Descripcion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b220944c-90f3-4312-85ee-99238a7aa382",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .mb-3:nth-child(4)",
+      "targets": [
+        ["css=form > .mb-3:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb89de8b-06c3-4b44-8d71-0de66a416d74",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .mb-3:nth-child(4) > .form-label",
+      "targets": [
+        ["css=form > .mb-3:nth-child(4) > .form-label", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Descripcion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddfac2fd-0610-4eed-9485-84bb8e78ce01",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .mb-3:nth-child(4) > .form-label",
+      "targets": [
+        ["css=form > .mb-3:nth-child(4) > .form-label", "css:finder"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Descripcion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30e2e276-03c3-4a25-a7f4-e5e441fcf526",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtdescripcion",
+      "targets": [
+        ["name=txtdescripcion", "name"],
+        ["css=form > .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31c8d446-d2b4-484f-b804-8f6d25fd6986",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtdescripcion",
+      "targets": [
+        ["name=txtdescripcion", "name"],
+        ["css=form > .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4de6d2e0-4133-484f-874e-40299830f709",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtdescripcion",
+      "targets": [
+        ["name=txtdescripcion", "name"],
+        ["css=form > .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Practicante pediatra"
+    }, {
+      "id": "f34e4ebd-ed06-46e6-81db-ed5c33fdd8f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer:nth-child(5) > .btn-primary",
+      "targets": [
+        ["css=.modal-footer:nth-child(5) > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='modalRegistrar']/div/div/div[2]/form/div[4]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b10f2e2-0a2a-4ac2-81dd-a0a61d3cd9b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div", "xpath:position"],
+        ["xpath=//div[contains(.,'Rol registrado correctamente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e49b0bfa-f876-46c3-8b72-022b1a2d86f3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div[3]", "xpath:position"],
+        ["xpath=//div[contains(.,'Rol registrado correctamente')]", "xpath:innerText"]
+      ],
+      "value": "Rol registrado correctamente"
+    }]
+  }, {
+    "id": "0628f77b-43f7-42aa-825d-d2e757753ff3",
+    "name": "9 Editar rol",
+    "commands": [{
+      "id": "b8e28bac-a813-49a6-8f2e-bb3c46b0e30d",
+      "comment": "",
+      "command": "open",
+      "target": "http://20.62.165.99/pg2v1-app/public/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb2ac738-bf5a-4465-ad4f-81554f44f650",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5daf32e0-e006-4a33-b1b8-271939aae1a1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terapeuta",
+      "targets": [
+        ["linkText=Terapeuta", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Terapeuta')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/terapeuta']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84e119f1-9d40-47ff-81a2-724bc9c03d2e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Roles",
+      "targets": [
+        ["linkText=Roles", "linkText"],
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Roles')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/rol']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Roles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b37120d2-7be0-40a0-9071-6188a8e5b062",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .btn-warning > .fa-solid",
+      "targets": [
+        ["css=tr:nth-child(5) .btn-warning > .fa-solid", "css:finder"],
+        ["xpath=//tr[5]/td[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08609ef9-16e6-4715-8e04-7eed1aaf63a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#modalEditar50 .mb-3:nth-child(5) > #exampleInputEmail1",
+      "targets": [
+        ["css=#modalEditar50 .mb-3:nth-child(5) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[18]", "xpath:attributes"],
+        ["xpath=//div[@id='modalEditar50']/div/div/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a5919c3-21bb-4478-9cad-34b95973d96a",
+      "comment": "",
+      "command": "click",
+      "target": "id=modalEditar50",
+      "targets": [
+        ["id=modalEditar50", "id"],
+        ["css=#modalEditar50", "css:finder"],
+        ["xpath=//div[@id='modalEditar50']", "xpath:attributes"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31dee822-6609-4d24-a7ea-2670519c186e",
+      "comment": "",
+      "command": "type",
+      "target": "css=#modalEditar50 .mb-3:nth-child(5) > #exampleInputEmail1",
+      "targets": [
+        ["css=#modalEditar50 .mb-3:nth-child(5) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[18]", "xpath:attributes"],
+        ["xpath=//div[@id='modalEditar50']/div/div/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/div[3]/input", "xpath:position"]
+      ],
+      "value": "Pediatra"
+    }, {
+      "id": "02e6841b-d669-42f8-8be3-a02aebd3e0cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#modalEditar50 .mb-3:nth-child(4) > #exampleInputEmail1",
+      "targets": [
+        ["css=#modalEditar50 .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[17]", "xpath:attributes"],
+        ["xpath=//div[@id='modalEditar50']/div/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d6e8ef8-64b3-4b88-81ca-c83234537428",
+      "comment": "",
+      "command": "type",
+      "target": "css=#modalEditar50 .mb-3:nth-child(4) > #exampleInputEmail1",
+      "targets": [
+        ["css=#modalEditar50 .mb-3:nth-child(4) > #exampleInputEmail1", "css:finder"],
+        ["xpath=(//input[@id='exampleInputEmail1'])[17]", "xpath:attributes"],
+        ["xpath=//div[@id='modalEditar50']/div/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Psicólogo"
+    }, {
+      "id": "13e89224-84a4-4e37-ad53-323094e99615",
+      "comment": "",
+      "command": "click",
+      "target": "css=#modalEditar50 .btn-primary",
+      "targets": [
+        ["css=#modalEditar50 .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='modalEditar50']/div/div/div[2]/div[4]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/div[4]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a48b4e49-a57f-458a-86ed-5716aee5127e",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9353a472-5c2d-434b-9c03-7adf77e5e3d3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div[3]", "xpath:position"],
+        ["xpath=//div[contains(.,'Rol modificado correctamente')]", "xpath:innerText"]
+      ],
+      "value": "Rol modificado correctamente"
+    }]
+  }, {
+    "id": "fe592a87-ef61-4ec3-b211-eafe079778b6",
+    "name": "10 Eliminar Rol",
+    "commands": [{
+      "id": "6ba0129a-7da2-4adb-8389-11f84a3bb3df",
+      "comment": "",
+      "command": "open",
+      "target": "http://20.62.165.99/pg2v1-app/public/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26304527-61c5-4799-97a5-e701336a8f08",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4692b21-0705-42d8-a516-65456dc5d12b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terapeuta",
+      "targets": [
+        ["linkText=Terapeuta", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Terapeuta')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/terapeuta']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1a87d91-8e24-4ae7-98c4-17fbdbd8edf4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Roles",
+      "targets": [
+        ["linkText=Roles", "linkText"],
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Roles')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/rol']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Roles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f52ffd3e-12ce-4107-87e2-ee25e8cb85bd",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f6e6537-eef9-4b7b-a79d-0c519c4af6a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .btn-danger > .fa-solid",
+      "targets": [
+        ["css=tr:nth-child(5) .btn-danger > .fa-solid", "css:finder"],
+        ["xpath=//tr[5]/td[5]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be910ed5-1bfd-461f-b3b7-72a702dce862",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "¿Estas seguro de eliminar este registro?",
+      "targets": [],
+      "value": "Aceptar"
+    }, {
+      "id": "707da732-b50f-4fd8-841a-0b18b4912299",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8dd38c23-613d-4c39-8294-66d2646a38ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab02d8ae-4267-4bc1-b55b-8a668285385e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div", "xpath:position"],
+        ["xpath=//div[contains(.,'Eliminación correcta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0638cb4e-2c0a-48b4-ad40-1ebec86d010f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Volver",
+      "targets": [
+        ["linkText=Volver", "linkText"],
+        ["css=.btn-success:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Volver')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/terapeuta']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Volver')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3aa75a3c-e5b0-48f9-9ca3-a2a29b6e80d9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inicio",
+      "targets": [
+        ["linkText=Inicio", "linkText"],
+        ["css=.btn-success:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Inicio')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Inicio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a999b6d-2a83-4958-bda2-30ac7cd3af29",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terapeuta",
+      "targets": [
+        ["linkText=Terapeuta", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Terapeuta')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/terapeuta']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terapeuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "954771b5-997b-4cbc-a1b0-7abb9c49e63f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Roles",
+      "targets": [
+        ["linkText=Roles", "linkText"],
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Roles')]", "xpath:link"],
+        ["xpath=//a[@href='http://20.62.165.99/pg2v1-app/public/rol']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Roles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f587c8d-e4c1-4903-80e9-3573f42b75b0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div[3]", "xpath:position"],
+        ["xpath=//div[contains(.,'Eliminación correcta')]", "xpath:innerText"]
+      ],
+      "value": "Eliminación correcta"
+    }]
+  }],
+  "suites": [{
+    "id": "acd2f5a5-8cc2-4717-9d95-25cd1e8c4457",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3bc3399d-18a0-4899-9030-81ddcd2ebed4"]
+  }],
+  "urls": ["http://20.62.165.99/", "http://20.62.165.99/pg2v1-app/public/"],
+  "plugins": []
+}
